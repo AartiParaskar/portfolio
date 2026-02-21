@@ -29,9 +29,11 @@ document.addEventListener("DOMContentLoaded", function() {
     typeEffect();
 });
 
-// Contact Form Alert
+// // Contact Form Alert
 document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
     alert("Message Sent Successfully!");
     this.reset();
 });
+
+
